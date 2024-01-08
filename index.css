@@ -103,7 +103,7 @@ body{
 
  
  
- 
+ /* Animation */
  @keyframes d {
     from{
        color: rgb(225, 175, 23);
@@ -543,7 +543,7 @@ body{
 }
 
 .song-Recommended-heading:hover{
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     text-shadow: 3px 3px 3px orange;
     text-decoration: underline;
 }
@@ -590,20 +590,20 @@ body{
 
 /* bINAURAL BEATS */
 .binaural_Beats{
-    background-color: #674056;
+    background-color: rgb(103, 64, 86, 0.822);
     }
     
 
 
 /* Mind Relax Lofi Songs */
 .mind-relaxing-lofi{
-    background-color: #674056;
+    background-color: rgb(103, 64, 86, 0.822);
     }
     
     
 /* faded */
 .faded{
-background-color: #674056;
+background-color: rgb(103, 64, 86, 0.822);
 }
 
 
@@ -612,13 +612,13 @@ background-color: #674056;
 
 /* Alone */
 .alone{
-    background-color: #3c6165;
+    background-color: rgb(60, 97, 101, 0.822);
 }
 
 
 /* Daspacito */
 .daspacito{
-    background-color: #917e5c;
+    background-color: rgb(145, 126, 92, 0.822);
     }
     
     
@@ -626,7 +626,7 @@ background-color: #674056;
     
 /* Let Me Love You */
 .lmlu{
-    background-color: #5f8059;
+    background-color: rgb(95, 128, 89, 0.822);
     }
     
 
@@ -645,7 +645,7 @@ background-color: #674056;
 
 /* Desh Mere */
 .desh_mere{
-    background-color:rgba(139, 91, 65, 0.82);
+    background-color:rgba(139, 91, 65, 0.822);
     }
     
 
@@ -715,7 +715,7 @@ background-color: #674056;
 
     /* Teri_Mitti */
 .teri_mitti{
-    background-color:rgba(65, 93, 139, 0.82);
+    background-color:rgba(65, 93, 139, 0.822);
     }
     
 
@@ -728,20 +728,20 @@ background-color: #674056;
 
     /* Tum Hi Aana */
 .tum_hi_aana{
-    background-color:rgba(65, 93, 139, 0.82);
+    background-color:rgba(65, 93, 139, 0.822);
     }
     
 
 
     /* Kabhii Tumhhe */
 .kabhii_tumhhe{
-    background-color:rgba(65, 93, 139, 0.82);
+    background-color:rgba(65, 93, 139, 0.822);
     }
     
 
 /* Ve Maahi */
 .ve_maahi{
-    background-color:rgba(51, 157, 127, 0.82);
+    background-color:rgba(51, 157, 127, 0.822);
     }
     
 
@@ -781,7 +781,7 @@ background-color: #674056;
 
 /* Samjhawan */
 .samjhawan{
-    background-color: #315276;
+    background-color: rgb(49, 82, 118, 0.822);
 }
 
 
@@ -992,13 +992,13 @@ background-color: #674056;
 
     /* Hey Ram Hey Ram */
  .hey_ram_hey_ram{
-    background-color:#674056;
+    background-color:rgb(103, 64, 86 ,0.822);
     }
     
 
     /* Artists */
    .artists{
-    background-color: rgb(3, 0, 11);
+    background-color: rgb(3, 0, 11, 0.822);
     padding: 0 4%;
     padding-bottom: 2%;
     }
@@ -1879,11 +1879,16 @@ font-weight: bolder;
   }
 
   @media only screen and (max-width: 420px) {
+   
     .text-footer a{
   font-size: 18px;
 }    
 
-
+.h1-hello{
+  animation-name:none;
+  animation-iteration-count:none;
+  animation-duration:none;
+}
 
 
     .song-Recommended-heading {
@@ -1935,7 +1940,7 @@ font-weight: bolder;
 /* Song respornsive image */
 
 .song_related-image img{
-    width: 80px;
+    width: 75px;
 }
 
 
