@@ -16,15 +16,123 @@ body{
     background-size: cover;
     background-attachment: fixed;
   }
-  
-  .marquee-1{
+
+  /* Background Tune Stop */
+.background-tune-stop_main{
+  width: fit-content;
+  background-color: black;
+  color: white;
+  position: fixed;
+  transition: all .3s;
+  z-index: 1;
+  padding: 110px 20px;
+  left: 38%;
+  top: -1188%;
+  border: 2px solid rgb(241, 204, 204);
+  border-radius: 3px;
+  background-image: url(/images/website-icon/mimg.jpg);
+  background-size: cover;
+}
+
+#background-music{
+  width: 47.5px;
+  border: 1px solid white;
+  margin: 0 120px;
+}
+
+#background-music:hover{
+  border: 1px solid rgb(208, 207, 207);
+}
+
+.background-tune-stop_para{
+  font-size: 14px;
+  width: 112%;
+  padding: 4px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px black;
+}
+
+.background-tune-stop-div-close{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+ }
+
+ .background-tune-stop-div-close:hover{
+  opacity: 0.6;
+  cursor: pointer;
+ }
+
+/* Slider */
+
+
+.left-slider{
+    width: 25vw;
+    background-color: black;
     color: white;
-    text-shadow: #f26b17;
+    position: fixed;
+    left: -100%;
+    transition: all .3s;
+    z-index: 1;
+}
+
+
+.about-me-slider {
+  padding: 20px;
+}
+
+.my-photo{
+  width: fit-content;
+margin: auto;
+}
+
+.my-photo img{
+width: 100px;
+border-radius: 100px;
+}
+
+.slider-hello-png-video img{
+  width: 80px;
+  position: absolute;
+}
+
+.name{
+  width: fit-content;
+margin: auto;
+ }
+
+ 
+ .close{
+  position: absolute;
+  right: 1px;
+ }
+
+ .close:hover{
+  opacity: 0.6;
+  cursor: pointer;
+ }
+
+ .name{
+font-size: 22px;
+color: rgb(255, 255, 255);
+ }
+
+ .para-about-me{
+  color: #a4a4a4;
+text-shadow: 3px 3px 3px red;
+font-size: 16px;
+ }
+
+ 
+
+
+/* Content */
+
+   /* Right */
+   .right-main-content{
+    width: 100vw;
   }
-
-
-
-
+ 
   .h1-hello{
      align-content: center;
      display: flex;
@@ -54,7 +162,7 @@ body{
   .h1-hello:hover{
       /* text-shadow: 5px 5px 10px rgb(254, 101, 101); */
       text-shadow: 10px 60px 20px rgb(254, 101, 101);
-      letter-spacing: -1px;
+      letter-spacing: -2px;
       
   }
   
@@ -512,7 +620,7 @@ body{
     }
  }
  
-   
+
   
   
 
@@ -566,6 +674,10 @@ body{
     margin: 5% 0;
     display: flex; 
 }
+
+/* .song_main-div:hover{
+  filter: brightness(0.9);
+} */
 
 /* Songs Image CSS */
 .song_related-image img{
@@ -665,6 +777,15 @@ background-color: rgb(103, 64, 86, 0.822);
 /* Janam Janam */
 .janam_janam{
     background-color:rgba(152, 124, 187, 0.822);
+    }
+
+    /* Tu Hi Yaar Mera */
+    .tu_hi_yaar_mera{
+      background-color:rgba(56, 167, 109, 0.822);
+    }
+
+    .dus_bahane{
+      background-color:rgba(65, 93, 139, 0.822);
     }
     
 
@@ -838,6 +959,12 @@ background-color: rgb(103, 64, 86, 0.822);
         background-color:rgba(58, 101, 175, 0.822);
         }
         
+
+            /* Kabira Encore */
+    .kabira_encore{
+      background-color: rgba(101, 183, 201, 0.822);
+    }
+    
 
 
         /* PT.II alone */
@@ -1883,6 +2010,11 @@ font-weight: bolder;
     .text-footer a{
   font-size: 18px;
 }    
+
+/* Slider Left */
+.left-slider {
+  width: 90vw;
+}
 
 .h1-hello{
   animation-name:none;

@@ -1,3 +1,24 @@
+// Background Tune Stop Slider
+document.querySelector(".logo-image-img-src").addEventListener("click",()=>{
+  document.querySelector(".background-tune-stop_main").style.top = "4%"
+})
+
+document.querySelector(".background-tune-stop-div-close").addEventListener("click",()=>{
+  document.querySelector(".background-tune-stop_main").style.top = "-1188%"
+})
+
+// Slider Left
+
+document.querySelector(".slider-slide_call-on-click").addEventListener("click",()=>{
+  document.querySelector(".left-slider").style.left = "0"
+})
+
+document.querySelector(".close").addEventListener("click",()=>{
+  document.querySelector(".left-slider").style.left = "-100%"
+})
+
+// Artist & Singers
+
 //  Justin Beaber Click
 
 document.addEventListener("DOMContentLoaded", function() {

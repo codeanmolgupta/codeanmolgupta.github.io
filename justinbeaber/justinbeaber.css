@@ -5,11 +5,10 @@
 }
 
 body{
-    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/500/740/43/4k-beautiful-background-wallpaper-preview.jpg');
-    background-repeat: no-repeat;
+    background-image: url("https://wallpaper.dog/large/10883221.jpg");
     background-size: cover;
-    position: sticky; */
-    background-color: black;
+    background-attachment: fixed;
+    /* background-color: black; */
     
 }
 

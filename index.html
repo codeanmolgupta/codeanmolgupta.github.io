@@ -3,42 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Musi</title>
+    <title>Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="utilityclasses.css">
     <link rel="icon" href="/images/website-icon/mimg.jpg" type="image/x-icon">
     <!--Code:Anmol Gupta-->
 </head>
 <body>
-  
-  
-
- <!--background_tune_system-->
- <div>
-  <audio autoplay loop>
-    <source src="/audio/background tune/background-sound.mp3" type="audio/mp3">
-  </audio>
-  </div>
-  
-  <audio id="background-music" autoplay loop>
+ <!--Background Tune System-->
+  <div class="background-tune-stop_main">
+    <div class="background-tune-stop-div-close">❌</div>
+    <audio id="background-music" controls autoplay loop>
     <source src="/audio/background tune/background-sound.mp3" type="audio/mpeg">
     <source src="/audio/background tune/background-sound.ogg" type="audio/ogg">
   </audio>
+  <div class="background-tune-stop_para">You, Want to stop me playing background tune..!</div>
+</div>
+
+
+
+<!-- Main Left Right -->
+  <div class="container-left-right-main flex">
+
+ <!-- Left (Slider) -->
+ <div class="left-slider border">
+
+  <div class="close">❌</div>
+<div class="about-me-slider">
+  <div class="slider-hello-png-video"><img src="images/png video or sticker/cat sticker png.gif" alt=""></div>
+  <div class="my-photo"><img src="/images/slider-left/my-image.jpg" alt=""></div>
+   <!-- Name -->
+  <div class="name"><span class="name-code">Code </span><span class="name-with">With </span><span class="name-anmol">Anmol</span></div>
+
+  <div class="para-about-me">Hello, i am anmol gupta current i am an student of class 9th. also, this website is totally designed or coded by me with the help of vanilla CSS.</div>
+</div>
+
+ <!-- Left (Slider) Close -->
+</div>
+
+  
+
+ 
+
+
+  <!-- Right (Main Content) -->
+  <div class="right-main-content">
 
     <!-- Thumnail Of Website -->
 
         <div class="logo-text">
     <div class="logo-image">
-    <img src="/images/website-thumnail-image/mimg.jpg" alt="logo">
+    <img class="logo-image-img-src" src="/images/website-thumnail-image/mimg.jpg" alt="logo">
     </div>
-  <div  class="h1-hello"><h1>Hello, <span class="h1-hello_colour-pink">wellcome to my</span> website.</h1></div>
+  <div  class="h1-hello"><h1>Hello, wellcome to my website.</h1></div>
 </div>
 <hr>
 
 <div class="about-me">
-    <h1 class="h1-about-me">So,I am anmol and this website is coded or programed by me and this site is totaly free, whithout any ads and whithout subscription. so enjoy listening music. <span class="thumnail-abou-text-sticker_music">🎤🎸</span></h1>
+    <h1 class="h1-about-me">So,I am <span class="slider-slide_call-on-click">anmol gupta</span> and this website is coded or programed by me and this site is totaly free, whithout any ads and whithout subscription. so enjoy listening music. <span class="thumnail-abou-text-sticker_music">🎤🎸</span></h1>
 </div>
 
 <hr>
+
 
 
 
@@ -200,7 +226,13 @@
     </div>
     
 
- 
+<!-- Tu Hi Yaar Mere -->
+<div class="tu_hi_yaar_mera song_main-div">
+  <div class="song_related-image"><img src="/images/mind-relaxing-lofi-image-2.jpg" alt=""></div>
+  <div class="song-name">Tu Hi Yaar Mere<span class="song-name-text_sticker">🎤🎸</span></div>
+  <audio src="/audio/Tu Hi Yaar Mera song audio.mp3" controls loop class="song_audio-controls"></audio>
+</div>
+
 
 <!-- Phir Kabhi -->
 <div class="phir_kabhi song_main-div">
@@ -357,6 +389,13 @@
   <audio src="audio/Ranjha-song.mp3" controls loop class="song_audio-controls"></audio>
 </div>
 
+<!-- Kabira Encore -->
+<div class="kabira_encore song_main-div">
+  <div class="song_related-image"><img src="/images/Kabira Encore image.jpg" alt=""></div>
+  <div class="song-name">Kabira Encore<span class="song-name-text_sticker">🎤🎸</span></div>
+  <audio src="audio/Kabira Encore.mp3" controls loop class="song_audio-controls"></audio>
+</div>
+
 <!-- Heeriye Heeriye -->
 <div class="heeriye_heeriye song_main-div">
   <div class="song_related-image"><img src="/images/heeriye-song-image.jpeg" alt=""></div>
@@ -434,6 +473,7 @@
   <audio src="audio/Chahun Main Ya Naa-song-audio.mp3" controls loop class="song_audio-controls"></audio>
 </div>
 
+
 <!-- Dil Diyan Gallan -->
 <div class="dil_diyan_gallan song_main-div">
   <div class="song_related-image"><img src="/images/dil diyan gallan song-image.jpg" alt=""></div>
@@ -453,6 +493,13 @@
   <div class="song_related-image"><img src="/images/chaand baaliyan song image.jpeg" alt=""></div>
   <div class="song-name">Chaand Baaliyan<span class="song-name-text_sticker">🎤🎸</span></div>
   <audio src="audio/Chaand Baaliyan-song-audio.mp3" controls loop class="song_audio-controls"></audio>
+</div>
+
+<!-- Dus Bahane -->
+<div class="dus_bahane song_main-div">
+  <div class="song_related-image"><img src="/images/dus-bahane-song-image.jpeg" alt=""></div>
+  <div class="song-name">Dus Bahane<span class="song-name-text_sticker">🎤🎸</span></div>
+  <audio src="audio/Dus Bahane Song audio.mp3" controls loop class="song_audio-controls"></audio>
 </div>
 
 <!-- Channa Ve -->
@@ -680,23 +727,12 @@
 </footer>
 
 
+<!-- Right (Main Content) Close -->
+</div>
 
-
- <!--background_tune_system-->
- <div>
-  <audio autoplay loop>
-    <source src="/audio/background tune/background-sound.mp3" type="audio/mp3">
-  </audio>
-  </div>
-  
-  <audio id="background-music" autoplay loop>
-    <source src="/audio/background tune/background-sound.mp3" type="audio/mpeg">
-    <source src="/audio/background tune/background-sound.ogg" type="audio/ogg">
-  </audio>
-
-
-    <script src="index.js"></script>
+<!-- Container Left Right Main -->
+</div>
 
     
-</body>
-</html>
+</body><script src="index.js"></script>
+</html>    
