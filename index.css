@@ -50,6 +50,7 @@ body{
   padding: 4px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 3px black;
+  font-family: 'Grape Nuts', cursive;
 }
 
 .background-tune-stop-div-close{
@@ -2007,6 +2008,35 @@ font-weight: bolder;
 
   @media only screen and (max-width: 420px) {
    
+
+/* Background Tune Stop */
+
+.background-tune-stop_main {
+  position: fixed;
+  transition: all .3s;
+  z-index: 1;
+  padding: 110px 1px;
+  left: 8%;
+  border: 2px solid rgb(241, 204, 204);
+  border-radius: 3px;
+}
+
+#background-music {
+  width: 50.5px;
+  border: 1px solid white;
+  margin: 0 124px;
+}
+
+.background-tune-stop_para {
+  font-size: 14px;
+  width: 61%;
+  padding: 1px 1px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px black;
+  font-family: 'Grape Nuts', cursive;
+  margin: auto;
+}
+
     .text-footer a{
   font-size: 18px;
 }    
