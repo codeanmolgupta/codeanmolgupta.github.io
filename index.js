@@ -1,4 +1,9 @@
 // Background Tune Stop Slider
+let backgroundmusic = new Audio(src="/audio/background tune/background-sound.mp3");
+
+// Background Music Play
+backgroundmusic.play();
+
 document.querySelector(".logo-image-img-src").addEventListener("click",()=>{
   document.querySelector(".background-tune-stop_main").style.top = "4%"
 })
@@ -6,6 +11,21 @@ document.querySelector(".logo-image-img-src").addEventListener("click",()=>{
 document.querySelector(".background-tune-stop-div-close").addEventListener("click",()=>{
   document.querySelector(".background-tune-stop_main").style.top = "-1188%"
 })
+
+// Background tune play pause Function
+
+  function backgroundtuneplaypause(){
+      if(backgroundmusic.paused){
+          document.querySelector("#played-pause-on-click").innerHTML="⏸️";
+          backgroundmusic.play()
+      }
+      else{
+        backgroundmusic.pause()
+          document.querySelector("#played-pause-on-click").innerHTML="⏯️";
+      }
+  }
+
+
 
 // Slider Left
 
