@@ -8,7 +8,6 @@ body{
     background-image: url("https://wallpaper.dog/large/10883221.jpg");
     background-size: cover;
     background-attachment: fixed;
-    /* background-color: black; */
     
 }
 
@@ -56,10 +55,6 @@ display: flex;
 
 /* Songs */
 .songs{
-    background-image: url("https://wallpaper.dog/large/10883221.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
     padding: 0 4%;
 }
 
@@ -148,12 +143,11 @@ display: flex;
 
  /* Footer */
 
-
-
-/* footer-responsive-icons-main */
-.footer-responsive-icons-main-box{
-   
+ .text-list_footer{
+    background-color: black;
 }
+
+
 
 /* Icons */
 

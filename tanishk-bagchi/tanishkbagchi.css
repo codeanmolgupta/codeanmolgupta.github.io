@@ -48,7 +48,6 @@ display: flex;
 
 /* Songs */
 .songs{
-    background-color: rgb(0, 0, 48);
     padding: 0 4%;
 }
 
@@ -127,12 +126,11 @@ display: flex;
 
  /* Footer */
 
-
-
-/* footer-responsive-icons-main */
-.footer-responsive-icons-main-box{
-   
+ .text-list_footer{
+    background-color: black;
 }
+
+
 
 /* Icons */
 

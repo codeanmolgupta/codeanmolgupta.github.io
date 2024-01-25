@@ -37,6 +37,7 @@ document.querySelector(".close").addEventListener("click",()=>{
   document.querySelector(".left-slider").style.left = "-100%"
 })
 
+
 // Artist & Singers
 
 //  Justin Beaber Click
