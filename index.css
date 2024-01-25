@@ -2019,8 +2019,8 @@ font-weight: bolder;
   position: fixed;
   transition: all .3s;
   z-index: 1;
-  padding: 110px 1px;
-  left: 8%;
+  padding: 110px 0px;
+  left: 2.5%;
   border: 2px solid rgb(241, 204, 204);
   border-radius: 3px;
 }
@@ -2028,13 +2028,14 @@ font-weight: bolder;
 
 
 .background-tune-stop_para {
-  font-size: 14px;
-  width: 61%;
+  font-size: 22px;
+  width: 52%;
   padding: 1px 1px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 3px black;
   font-family: 'Grape Nuts', cursive;
   margin: auto;
+  font-family: 'Sacramento', cursive;
 }
 
     .text-footer a{
