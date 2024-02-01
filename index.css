@@ -46,13 +46,14 @@ opacity: 0.8;
 }
  
 
-.background-tune-stop_para{
-  font-size: 14px;
-  width: 112%;
-  padding: 4px;
+.background-tune-stop_para {
+  font-size: 22px;
+  width: 52%;
+  padding: 1px 1px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 3px black;
-  font-family: 'Grape Nuts', cursive;
+  margin: auto;
+  font-family: 'Sacramento', cursive;
 }
 
 .background-tune-stop-div-close{
@@ -2029,11 +2030,10 @@ font-weight: bolder;
 
 .background-tune-stop_para {
   font-size: 22px;
-  width: 52%;
+  width: 64%;
   padding: 1px 1px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 3px black;
-  font-family: 'Grape Nuts', cursive;
   margin: auto;
   font-family: 'Sacramento', cursive;
 }
@@ -2051,8 +2051,13 @@ font-weight: bolder;
   animation-name:none;
   animation-iteration-count:none;
   animation-duration:none;
+  font-size: 19px;
+  letter-spacing: -2px;
 }
 
+.logo-text{
+  padding: 15% 0;
+}
 
     .song-Recommended-heading {
     font-size: 125%;
@@ -2067,6 +2072,10 @@ font-weight: bolder;
 
 
   /* Artist Respornsive CSS */
+
+  .artist_name-text{
+    font-size: 18px;
+  }
 
   .text-Artist {
     font-size: 42px;
