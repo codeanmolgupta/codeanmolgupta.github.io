@@ -2051,8 +2051,17 @@ font-weight: bolder;
   animation-name:none;
   animation-iteration-count:none;
   animation-duration:none;
-  font-size: 18px;
-  letter-spacing: -1px;
+  font-size: 16.5px;
+}
+
+.about-me {
+  background-color: rgb(0, 0, 39);
+  padding: 9% 0;
+  font-family: 'Sacramento', cursive;
+}
+
+.about-me .h1-about-me{
+  font-size: 23.5px;
 }
 
 .logo-text{
