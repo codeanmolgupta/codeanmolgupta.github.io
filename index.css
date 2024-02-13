@@ -2121,7 +2121,7 @@ font-weight: bolder;
 /* Song respornsive image */
 
 .song_related-image img{
-    width: 75px;
+    width: 66px;
 }
 
 
@@ -2139,3 +2139,16 @@ font-weight: bolder;
   }
 
   
+  @media only screen and (max-width: 350px) {
+    .h1-hello {
+      font-size: 15px;
+    }
+    
+    .song_related-image img {
+      width: 62px;
+    }
+    
+      .song-name {
+        font-size: 17px;
+      }
+  }
