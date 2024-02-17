@@ -2055,6 +2055,16 @@ font-weight: bolder;
   letter-spacing: -1px;
 }
 
+.about-me {
+  background-color: rgb(0, 0, 39);
+  padding: 8% 0;
+  font-family: 'Sacramento', cursive;
+}
+
+  .about-me .h1-about-me {
+    font-size: 23px;
+  }
+
 .logo-text{
   padding: 15% 0;
 }
