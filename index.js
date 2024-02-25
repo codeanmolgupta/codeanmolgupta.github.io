@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistjustinbeaber.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "./justinbeaber/justinbeaber.html";
+        var linkURL = "./artists/justinbeaber/justinbeaber.html";
         window.location.href = linkURL;
       });
     });
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistalanwalkar.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "./alenwalkar/alenwalkar.html";
+        var linkURL = "./artists/alenwalkar/alenwalkar.html";
         window.location.href = linkURL;
       });
     });
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistarjeetsigh.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "/arijit-singh/arijitsingh.html";
+        var linkURL = "./artists/arijit-singh/arijitsingh.html";
         window.location.href = linkURL;
       });
     });
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartisttanishkbagchi.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "/tanishk-bagchi/tanishkbagchi.html";
+        var linkURL = "./artists/tanishk-bagchi/tanishkbagchi.html";
         window.location.href = linkURL;
       });
     });
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistbpraak.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "/b-praak/bpraak.html";
+        var linkURL = "./artists/b-praak/bpraak.html";
         window.location.href = linkURL;
       });
     });
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistjubinnautiyal.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "/jubin-nautiyal/jubinnautiyal.html";
+        var linkURL = "./artists/jubin-nautiyal/jubinnautiyal.html";
         window.location.href = linkURL;
       });
     });
@@ -141,9 +141,103 @@ document.addEventListener("DOMContentLoaded", function() {
   
     clickableartistimaginedragons.forEach(function(element) {
       element.addEventListener("click", function() {
-        var linkURL = "/imagine-dragons/imaginedragons.html";
+        var linkURL = "./artists/imagine-dragons/imaginedragons.html";
         window.location.href = linkURL;
       });
     });
   }); 
+
+
+
+  // Choose Your Mood
+
+  
+//    //  Radhe Krishna Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodradhe_krishna = document.querySelectorAll(".radhe_krishna-mood_main_div");
+
+  clickablemoodradhe_krishna.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/radhe_krishna/radhe_krishna.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Motivation Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodmotivation = document.querySelectorAll(".motivation-mood_main_div");
+
+  clickablemoodmotivation.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/motivation/motivation.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Study Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodstudy = document.querySelectorAll(".study-mood_main_div");
+
+  clickablemoodstudy.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/study/study.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Lofi-Remix Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodlofi_remix = document.querySelectorAll(".lofi_remix-mood_main_div");
+
+  clickablemoodlofi_remix.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/lofi_remix/lofi_remix.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Imagination Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodimagination = document.querySelectorAll(".imagination-mood_main_div");
+
+  clickablemoodimagination.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/imagination/imagination.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Meditation Yoga Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodmeditation_yoga = document.querySelectorAll(".meditation_yoga-mood_main_div");
+
+  clickablemoodmeditation_yoga.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/meditation_yoga/meditation_yoga.html";
+      window.location.href = linkURL;
+    });
+  });
+});
 

@@ -1133,20 +1133,20 @@ background-color: rgb(103, 64, 86, 0.822);
     
 
     /* Artists */
-   .artists{
+   .artists , .choose_your_mood{
     background-color: rgb(3, 0, 11, 0.822);
     padding: 0 4%;
     padding-bottom: 2%;
     }
 
-    .artist-name-image{
+    .artist-name-image , .mood_name_image{
         display: flex;
         overflow: scroll;
         border: 1px solid white;
         scroll-behavior: smooth;
     }
 
-    .text-Artist{
+    .text-Artist , .choose_your_mood-text{
         color: white;
         font-size: 60px;
         padding: 1% 3%;
@@ -1159,25 +1159,25 @@ background-color: rgb(103, 64, 86, 0.822);
 
     /* Artist Main Div */
 
-    .artist_main-div{
+    .artist_main-div , .mood_main-div{
       font-family: 'Amatic SC', cursive;
       color: white;
       padding: 1.5% 3%;
     }
 
-    .artist_main-div:hover{
+    .artist_main-div:hover , .mood_main-div:hover{
       opacity: 0.8;
     }
 
     /* Artist Image */
-    .artist-image img{
+    .artist-image img , .mood-image img{
       width:200px;
       border: 3px solid white;
       border-radius: 100px;
     }
 
     /* Artist Name Text */
-    .artist_name-text{
+    .artist_name-text , .mood_name-text{
       font-size: 25px;
       font-family: 'Amatic SC', cursive;
       align-content: center;
@@ -1239,6 +1239,8 @@ opacity: 0.6;
 
 
 
+  
+  
 
 
 
@@ -2084,20 +2086,21 @@ font-weight: bolder;
   }
 
 
-  /* Artist Respornsive CSS */
+  /* Mood and Artist Respornsive CSS */
 
-  .artist_name-text{
+  .artist_name-text , .mood_name-text{
     font-size: 18px;
   }
 
-  .text-Artist {
+  .text-Artist , .choose_your_mood-text {
     font-size: 42px;
+    padding: 2% 3%;
   }
 
   /* Artist Image Respornsive */
 
-  .artist-image img{
-    width:146px;
+  .artist-image img , .mood-image img{
+    width:132px;
 }
 
 
@@ -2108,9 +2111,6 @@ font-weight: bolder;
     }
 
 
-    .text-Artist {
-        padding: 2% 3%;
-    }
 
 
 
