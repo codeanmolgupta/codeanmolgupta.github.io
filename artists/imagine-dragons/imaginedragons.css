@@ -5,11 +5,9 @@
 }
 
 body{
-    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/500/740/43/4k-beautiful-background-wallpaper-preview.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky; */
-    background-color: black;
+  background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Thumnail */
@@ -56,10 +54,6 @@ display: flex;
 
 /* Songs */
 .songs{
-    background-image: url("https://wallpaper.dog/large/10883221.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
     padding: 0 4%;
 }
 
@@ -303,7 +297,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 1% 0;
-background-color: black;
 }
 
 
@@ -312,7 +305,9 @@ background-color: black;
 /*footer-text_center*/
 
 
-
+.text-list_footer {
+  background-color: #000000;
+}
 
 .text-footer a {
  color: rgb(255, 255, 255);
@@ -364,9 +359,44 @@ margin: 0 60px;
   @media only screen and (max-width: 860px) {
    
 
-    .song_audio-controls{
+
+    /* Artist Thumnail Responsive */
+
+    .artist-image-name img {
+        width: 28vw;
+      }
+
+      .artist-name {
+        font-size: 4.3vw;
+      }
+
+      .artist-main-page-songs {
+        padding: 3%;
+      }
+
+
+    /* Songs and hedings */
+  
+  .song-Recommended-heading {
+    font-size: 2.6vw;
+  }
+  
+  .song_related-image img {
+      width: 10.7vw;
+    }
+  
+    .song-name {
+      font-size: 2.8vw;
+    }
+  
+    .artist-main-page-songs {
+      padding: 3%;
+    }
+  
+    /* Songs Audio width Respornsive */
+
+    .song_audio-controls {
         width: 58%;
-        margin: auto;
     }
     
 

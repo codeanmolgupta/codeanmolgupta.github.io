@@ -5,11 +5,11 @@
 }
 
 body{
-/* background-color: black; */
-background-image: url("https://wallpaper.dog/large/10883221.jpg");
-background-size: cover;
-background-attachment: fixed;
-}
+    background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
 /* Thumnail */
 
 .artist-main-page-songs{
@@ -126,7 +126,7 @@ background-color: #674056;
 }
 
 
-/* Dark Side */
+/* Rim Jhim */
 .rim_jhim{
     background-color: #42648a;
 }
@@ -379,9 +379,44 @@ margin: 0 60px;
     }
     
 
-    .song_audio-controls{
+
+    /* Artist Thumnail Responsive */
+
+    .artist-image-name img {
+        width: 28vw;
+      }
+
+      .artist-name {
+        font-size: 4.3vw;
+      }
+
+      .artist-main-page-songs {
+        padding: 3%;
+      }
+
+
+    /* Songs and hedings */
+  
+  .song-Recommended-heading {
+    font-size: 2.6vw;
+  }
+  
+  .song_related-image img {
+      width: 10.7vw;
+    }
+  
+    .song-name {
+      font-size: 2.8vw;
+    }
+  
+    .artist-main-page-songs {
+      padding: 3%;
+    }
+  
+    /* Songs Audio width Respornsive */
+
+    .song_audio-controls {
         width: 58%;
-        margin: auto;
     }
     
 

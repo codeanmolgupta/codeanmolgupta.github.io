@@ -5,11 +5,11 @@
 }
 
 body{
-/* background-color: black; */
-background-image: url("https://wallpaper.dog/large/10883221.jpg");
-background-size: cover;
-background-attachment: fixed;
+  background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 /* Thumnail */
 
 .artist-main-page-songs{
@@ -61,11 +61,11 @@ display: flex;
     width:fit-content;
 }
 
-.song-Recommended-heading:hover{
-    letter-spacing: 10px;
+.song-Recommended-heading:hover {
+    letter-spacing: 1vw;
     text-shadow: 3px 3px 3px orange;
     text-decoration: underline;
-}
+  }
 
 
 
@@ -364,11 +364,44 @@ margin: 0 60px;
   @media only screen and (max-width: 860px) {
    
 
-/* Songs Audio width Respornsive */
+    /* Artist Thumnail Responsive */
 
-.song_audio-controls{
-    width: 40%;
- }
+    .artist-image-name img {
+        width: 28vw;
+      }
+
+      .artist-name {
+        font-size: 4.3vw;
+      }
+
+      .artist-main-page-songs {
+        padding: 3%;
+      }
+
+
+    /* Songs and hedings */
+  
+  .song-Recommended-heading {
+    font-size: 2.6vw;
+  }
+  
+  .song_related-image img {
+      width: 10.7vw;
+    }
+  
+    .song-name {
+      font-size: 2.8vw;
+    }
+  
+    .artist-main-page-songs {
+      padding: 3%;
+    }
+  
+    /* Songs Audio width Respornsive */
+
+    .song_audio-controls {
+        width: 58%;
+    }
 
 
   }

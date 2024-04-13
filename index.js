@@ -181,6 +181,20 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+//    //  Patriotism Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodpatriotism = document.querySelectorAll(".patriotism-mood_main_div");
+
+  clickablemoodpatriotism.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/patriotism/patriotism.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
 
 //    //  Study Click
 
@@ -197,6 +211,35 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+//    //  Sad Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodsad = document.querySelectorAll(".sad-mood_main_div");
+
+  clickablemoodsad.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/sad/sad.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+//    //  Barsaat Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodbarsaat = document.querySelectorAll(".barsaat-mood_main_div");
+
+  clickablemoodbarsaat.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/barsaat/barsaat.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
 //    //  Lofi-Remix Click
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -206,6 +249,21 @@ document.addEventListener("DOMContentLoaded", function() {
   clickablemoodlofi_remix.forEach(function(element) {
     element.addEventListener("click", function() {
       var linkURL = "./mood/lofi_remix/lofi_remix.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Lofi-Remix Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodswag_attitude = document.querySelectorAll(".swag_attitude-mood_main_div");
+
+  clickablemoodswag_attitude.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/swag_attitude/swag_attitude.html";
       window.location.href = linkURL;
     });
   });
@@ -236,6 +294,21 @@ document.addEventListener("DOMContentLoaded", function() {
   clickablemoodmeditation_yoga.forEach(function(element) {
     element.addEventListener("click", function() {
       var linkURL = "./mood/meditation_yoga/meditation_yoga.html";
+      window.location.href = linkURL;
+    });
+  });
+});
+
+
+//    //  Love Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodlove = document.querySelectorAll(".love-mood_main_div");
+
+  clickablemoodlove.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/love/love.html";
       window.location.href = linkURL;
     });
   });

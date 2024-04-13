@@ -5,8 +5,11 @@
 }
 
 body{
-background-color: black;
+  background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 /* Thumnail */
 
 .artist-main-page-songs{
@@ -45,7 +48,6 @@ display: flex;
 
 /* Songs */
 .songs{
-    background-color: rgb(0, 0, 48);
     padding: 0 4%;
 }
 
@@ -106,20 +108,18 @@ display: flex;
     margin: 2%;
 }
 
-/* Stay */
-/* .stay{
-    background-color: #a7637c;
-    } */
+    /* Dil Tod Ke */
+    .dil_tod_ke{
+      background-color:rgba(58, 101, 175, 0.822);
+      }
 
-
+ /* Qismat Badalti */
+ .qismat_badalti{
+  background-color:rgba(164, 108, 127, 0.822);
+  }
+  
+      
  /* Footer */
-
-
-
-/* footer-responsive-icons-main */
-.footer-responsive-icons-main-box{
-   
-}
 
 /* Icons */
 
@@ -282,15 +282,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 1% 0;
-background-color: black;
 }
-
 
 
 
 /*footer-text_center*/
 
-
+.text-list_footer {
+  background-color: #000000;
+}
 
 
 .text-footer a {
@@ -334,10 +334,45 @@ margin: 0 60px;
 
   @media only screen and (max-width: 860px) {
 
-.song_audio-controls{
-    width: 58%;
-    margin: auto;
-}
+
+    /* Artist Thumnail Responsive */
+
+    .artist-image-name img {
+        width: 28vw;
+      }
+
+      .artist-name {
+        font-size: 4.3vw;
+      }
+
+      .artist-main-page-songs {
+        padding: 3%;
+      }
+
+
+    /* Songs and hedings */
+  
+  .song-Recommended-heading {
+    font-size: 2.6vw;
+  }
+  
+  .song_related-image img {
+      width: 10.7vw;
+    }
+  
+    .song-name {
+      font-size: 2.8vw;
+    }
+  
+    .artist-main-page-songs {
+      padding: 3%;
+    }
+  
+    /* Songs Audio width Respornsive */
+
+    .song_audio-controls {
+        width: 58%;
+    }
 
 
   }

@@ -5,8 +5,11 @@
 }
 
 body{
-background-color: black;
+  background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 /* Thumnail */
 
 .mood-main-page-songs{
@@ -45,8 +48,10 @@ display: flex;
 
 /* Songs */
 .songs{
-    background-color: rgb(0, 0, 48);
-    padding: 0 4%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 4%;
 }
 
 /* song smain Recommended heading */
@@ -293,7 +298,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 1% 0;
-background-color: black;
 }
 
 
@@ -302,7 +306,9 @@ background-color: black;
 /*footer-text_center*/
 
 
-
+.text-list_footer {
+  background-color: #000000;
+}
 
 .text-footer a {
  color: rgb(255, 255, 255);
@@ -350,6 +356,39 @@ margin: 0 60px;
     margin: auto;
 }
 
+
+
+.mood-image-name img {
+  width: 28vw;
+}
+
+.mood-name {
+    font-size: 4.3vw;
+}
+
+
+.song-Recommended-heading:hover {
+  letter-spacing: 10px;
+
+  text-shadow: 3px 3px 3px orange;
+
+}
+
+.song-Recommended-heading {
+  font-size: 2.6vw;
+}
+
+.song_related-image img {
+    width: 10.7vw;
+  }
+
+  .song-name {
+    font-size: 2.8vw;
+  }
+
+  .mood-main-page-songs {
+    padding: 3%;
+  }
 
   }
 
