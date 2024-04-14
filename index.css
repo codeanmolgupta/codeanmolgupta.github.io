@@ -706,11 +706,6 @@ font-size: 16px;
 }
 
 
-/* bINAURAL BEATS */
-.binaural_Beats{
-    background-color: rgb(103, 64, 86, 0.822);
-    }
-    
 
 
 /* Mind Relax Lofi Songs */
@@ -722,6 +717,12 @@ font-size: 16px;
 /* faded */
 .faded{
 background-color: rgb(103, 64, 86, 0.822);
+}
+
+/* Tu Hai Kahan */
+.tu_hai_kahan{
+  background-color:rgba(65, 93, 139, 0.822);
+
 }
 
 /* Radha Rani Lage */
@@ -836,11 +837,6 @@ background-color: rgb(103, 64, 86, 0.822);
     }
     
 
-    /* Tum Hi Aana */
-.tum_hi_aana{
-    background-color:rgba(65, 93, 139, 0.822);
-    }
-    
 
 
     /* Kabhii Tumhhe */
@@ -854,31 +850,6 @@ background-color: rgb(103, 64, 86, 0.822);
     background-color:rgba(51, 157, 127, 0.822);
     }
     
-
-
-
-
-/* Excuses */
-.excuses{
-    background-color:rgba(56, 167, 158, 0.822);
-    }
-
-    
-
- /* Pal Pal Pil Ke Paas */
- .pal_pal_dil_ke_paas{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
-
-
-
-/* Samjhawan */
-.samjhawan{
-    background-color: rgb(49, 82, 118, 0.822);
-}
-
-
 
     /* Dekhate Dekhate */
     .dekhate_dekhate{
@@ -912,12 +883,6 @@ background-color: rgb(103, 64, 86, 0.822);
         }
         
 
-         /* Fearless */
-    .fearless{
-        background-color:rgba(58, 101, 175, 0.822);
-        }
-        
-
 
         
         /* Photo Luka chuppi */
@@ -946,13 +911,6 @@ background-color: rgb(103, 64, 86, 0.822);
         }
         
 
-
-
-
-   /* Vaaste */
-   .vaaste{
-    background-color:rgba(56, 150, 167, 0.822);
-    }
     
  /* Gulabi Aankhen */
  .gulabi_aankhen{
@@ -1008,11 +966,6 @@ background-color: rgb(103, 64, 86, 0.822);
 
 
 
-     /* Illegal Weapon */
-.illegal_weapon{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
 
     /* Ek Zindagi */
 .ek_zindagi{

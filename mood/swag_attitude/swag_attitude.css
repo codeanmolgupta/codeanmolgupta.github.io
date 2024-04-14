@@ -77,10 +77,25 @@ display: flex;
         background-color:rgba(56, 99, 167, 0.822);
         }
 
-    /* Wakhra Swag */
-    .wakhra_swag{
-        background-color:rgba(56, 99, 167, 0.822);
-        }
+
+/* Excuses */
+.excuses{
+  background-color:rgba(56, 167, 158, 0.822);
+  }
+
+
+/* Tu Hai Kahan */
+.tu_hai_kahan{
+  background-color:rgba(65, 93, 139, 0.822);
+
+}
+
+
+     /* Illegal Weapon */
+     .illegal_weapon{
+      background-color:rgba(56, 99, 167, 0.822);
+      }
+      
 
 
 /* Songs Image, Size, Songs_Audio-Controls CSS  */

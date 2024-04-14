@@ -70,15 +70,25 @@ display: flex;
 /* Songs Background Colour */
 
 
-    /* Fearless */
-.fearless{
-    background-color:rgba(58, 101, 175, 0.822);
+    /* Asshayein */
+.asshayein-mere-dil-ki{
+  background-color:rgba(65, 93, 139, 0.822);
+}
+
+    /* Lakshya */
+.lakshya{
+    background-color:rgba(58, 97, 175, 0.822);
     }
 
     /* Aarambh Ha Prachand */
     .aarambh_ha_prachand{
         background-color:rgba(152, 124, 187, 0.822);
         }
+
+            /* Fearless */
+    .fearless{
+      background-color:rgba(58, 122, 165, 0.822);
+      }
 
 /* Songs Image, Size, Songs_Audio-Controls CSS  */
 
