@@ -314,3 +314,16 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+//    //  Love Click
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var clickablemoodlovesecond = document.querySelectorAll(".love_second-mood_main_div");
+
+  clickablemoodlovesecond.forEach(function(element) {
+    element.addEventListener("click", function() {
+      var linkURL = "./mood/love_second/love_second.html";
+      window.location.href = linkURL;
+    });
+  });
+});

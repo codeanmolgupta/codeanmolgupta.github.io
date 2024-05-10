@@ -127,6 +127,12 @@ background-color: #674056;
     }
     
 
+    /* Phir Kabhi */
+    .phir_kabhi{
+        background-color:rgb(103, 64, 86, 0.822);
+        }
+        
+    
 
     /* Kesariya */
 .kesariya{
@@ -136,29 +142,29 @@ background-color: #674056;
 
 /* Agar Tum Saath Ho */
 .agar_tum_saath_ho{
-    background-color: #674056;
+    background-color: rgb(103, 64, 86, 0.822);
     }
     
 /* Ae Dil Hai Mushkil */
 .ae_dil_hai_mushkil{
-    background-color: #3a3a6c;
+    background-color: rgb(58, 58, 108, 0.822);
 }
 
 
 /* Khairiyat */
 .khairiyat{
-    background-color: #42648a;
+    background-color: rgb(66, 100, 138, 0.822);
 }
 
 /* Samjhawan */
 .samjhawan{
-    background-color: #313b76;
+    background-color: rgb(49, 59, 118, 0.822);
 }
 
 
 /* Hawayein */
 .hawayein{
-    background-color: #313b76;
+    background-color: rgb(49, 59, 118, 0.822);
 }
 
 
