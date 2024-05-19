@@ -769,11 +769,6 @@ background-color: rgb(103, 64, 86, 0.822);
       background-color:rgba(56, 167, 109, 0.822);
     }
 
-/* Kahani Suno */
-.kahani_suno{
-    background-color:rgba(152, 124, 187, 0.822);
-    }
-    
 
     /* Aarambh Ha Prachand */
 .aarambh_ha_prachand{
@@ -803,31 +798,17 @@ background-color: rgb(103, 64, 86, 0.822);
         background-color:rgba(58, 101, 175, 0.822);
         }
 
-
-        /* Dil Diyan Gallan */
-    .dil_diyan_gallan{
-        background-color:rgba(58, 101, 175, 0.822);
-        }
-        
-
-        
         /* Let Me Down Slowly */
     .let_me_down_slowly{
         background-color:rgba(58, 101, 175, 0.822);
         }
 
 
-        /* PT.II alone */
-    .pt_ii_alone{
-        background-color:rgba(58, 101, 175, 0.822);
-        }
-        
+/* Achyutam Keshavam */
+.achyutam_keshavam{
+  background-color:rgba(108, 65, 139, 0.822);
+}
 
-    
- /* Gulabi Aankhen */
- .gulabi_aankhen{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
 
     /* Maiya Manu */
 .maiya_manu{
@@ -851,26 +832,6 @@ background-color: rgb(103, 64, 86, 0.822);
 .halki_si_barsaat{
     background-color:rgba(56, 99, 167, 0.822);
     }
-
-
-    /* Lehanga */
-.lehanga{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-
-
- /* O Saathi */
- .o_saathi{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
-
-
-    /* Bekhayali */
-.bekhayali{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
 
     /* Artists */
    .artists , .choose_your_mood{
@@ -1704,6 +1665,24 @@ font-weight: bolder;
   justify-content: center;
   margin: 0 60px;
   }
+
+
+  ::-webkit-scrollbar{
+    width: 4px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+
+
 /* 
 #content{
     display: none;

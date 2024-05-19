@@ -60,6 +60,7 @@ display: flex;
     font-size: 160%;
     transition: 1s;
     color: white;
+    text-shadow: 5px 5px 5px white;
     padding:2% 0;
     width:fit-content;
 }
@@ -97,11 +98,6 @@ display: flex;
   background-color: #674056;
   }
 
-  
-/* Hawayein */
-.hawayein{
-  background-color: #313b76;
-}
 
 /* Khairiyat */
 .khairiyat{

@@ -60,6 +60,7 @@ display: flex;
     font-size: 160%;
     transition: 1s;
     color: white;
+    text-shadow: 5px 5px 5px white;
     padding:2% 0;
     width:fit-content;
 }
@@ -96,13 +97,6 @@ display: flex;
     background-color:rgba(56, 99, 167, 0.822);
     }
 
-    /* Tum Hi Ho */
-.tum_hi_ho{
-  background-color: #674056;
-  }
-  
-
-
     /* Tara Ban Jaunga */
     .tara_ban_jaunga{
         background-color:rgba(56, 99, 167, 0.822);
@@ -119,27 +113,33 @@ display: flex;
         background-color:rgba(56, 99, 167, 0.822);
         }
 
-/* Raatan Lambiyan */
-.raatan_lambiyan{
-    background-color: #4d3c65;
-}
-
-/* Lut Gaya */
-.lut-gaya{
-    background-color: #674056;
-    }
-    
-
 
    /* Vaaste */
    .vaaste{
     background-color:rgba(56, 150, 167, 0.822);
     }
 
+    
+/* Kahani Suno */
+.kahani_suno{
+  background-color:rgba(152, 124, 187, 0.822);
+  }
+  
+
     /* Hamdard */
     .hamdard{
         background-color:rgba(152, 124, 187, 0.822);
         }
+
+    
+
+        /* Dil Diyan Gallan */
+        .dil_diyan_gallan{
+          background-color:rgba(58, 101, 175, 0.822);
+          }
+          
+  
+          
         
         
 

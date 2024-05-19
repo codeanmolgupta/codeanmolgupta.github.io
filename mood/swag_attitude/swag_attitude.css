@@ -60,6 +60,7 @@ display: flex;
     font-size: 160%;
     transition: 1s;
     color: white;
+    text-shadow: 5px 5px 5px white;
     padding:2% 0;
     width:fit-content;
 }
@@ -95,6 +96,15 @@ display: flex;
      .illegal_weapon{
       background-color:rgba(56, 99, 167, 0.822);
       }
+
+      
+
+    /* Lehanga */
+.lehanga{
+  background-color:rgba(56, 99, 167, 0.822);
+  }
+
+
       
 
 
