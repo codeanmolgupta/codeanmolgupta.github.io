@@ -1,44 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Just+Another+Hand&family=Poppins:ital,wght@1,300&family=Sacramento&family=Ubuntu:wght@500&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-image: url(/images/page-background-image/index\ page\ website\ background\ image.jpg);
     background-size: cover;
     background-attachment: fixed;
-  }
-  
+}
+
 /* Thumnail */
 
-.artist-main-page-songs{
+.artist-main-page-songs {
     display: flex;
-    padding: 2% ;
+    padding: 2%;
     background-color: black;
 }
 
-.artist-image-name{
-margin: auto;
-display: flex;
+.artist-image-name {
+    margin: auto;
+    display: flex;
 }
 
-.artist-image-name img{
-  width: 250px;
-  border: 3px solid white;
-  border-radius: 150px;
+.artist-image-name img {
+    width: 250px;
+    border: 3px solid white;
+    border-radius: 150px;
 }
 
-.artist-name{
+.artist-name {
     font-size: 45px;
     height: fit-content;
     color: white;
     margin: auto 0%;
     margin-left: 5%;
-    font-family: Lato,sans-serif;
+    font-family: Lato, sans-serif;
 }
 
-.artist-name .artist-listners{
+.artist-name .artist-listners {
     width: 120%;
     color: #d2b6b6;
 }
@@ -47,21 +48,21 @@ display: flex;
 
 
 /* Songs */
-.songs{
+.songs {
     padding: 0 4%;
 }
 
 /* song smain Recommended heading */
-.song-Recommended-heading{
+.song-Recommended-heading {
     font-family: 'Amatic SC', cursive;
     font-size: 160%;
     transition: 1s;
     color: white;
-    padding:2% 0;
-    width:fit-content;
+    padding: 2% 0;
+    width: fit-content;
 }
 
-.song-Recommended-heading:hover{
+.song-Recommended-heading:hover {
     letter-spacing: 10px;
     text-shadow: 3px 3px 3px orange;
     text-decoration: underline;
@@ -72,7 +73,7 @@ display: flex;
 /* Songs Image, Size, Songs_Audio-Controls CSS  */
 
 /* Songs Audio Controls */
-.song_audio-controls{
+.song_audio-controls {
     width: 60%;
     border: 5px solid aqua;
     border-radius: 5px;
@@ -81,23 +82,23 @@ display: flex;
 }
 
 /* Songs Main Div CSS */
-.song_main-div{
+.song_main-div {
     border: 3px solid white;
     border-radius: 5px;
     margin: 5% 0;
-    display: flex; 
+    display: flex;
 }
 
 /* Songs Image CSS */
-.song_related-image img{
+.song_related-image img {
     width: 100px;
-        border: 2px solid white;
-        border-radius: 5px;
-        margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 /* Songs Name Text */
-.song-name{
+.song-name {
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
     color: white;
@@ -110,77 +111,77 @@ display: flex;
 
 
 /* Tum Hi Ho */
-.tum_hi_ho{
-background-color: #674056;
+.tum_hi_ho {
+    background-color: #674056;
 }
 
 
 /* Pal Pal Pil Ke Paas */
-.pal_pal_dil_ke_paas{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
+.pal_pal_dil_ke_paas {
+    background-color: rgba(56, 99, 167, 0.822);
+}
 
-    
-     /* Heeriye Heeriye */
-.heeriye_heeriye{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
 
-    /* Phir Kabhi */
-    .phir_kabhi{
-        background-color:rgb(103, 64, 86, 0.822);
-        }
-        
-    
+/* Heeriye Heeriye */
+.heeriye_heeriye {
+    background-color: rgba(56, 99, 167, 0.822);
+}
 
-    /* Kesariya */
-.kesariya{
-    background-color:rgba(56, 99, 167, 0.822);
-    }
-    
+
+/* Phir Kabhi */
+.phir_kabhi {
+    background-color: rgb(103, 64, 86, 0.822);
+}
+
+
+
+/* Kesariya */
+.kesariya {
+    background-color: rgba(56, 99, 167, 0.822);
+}
+
 
 /* Agar Tum Saath Ho */
-.agar_tum_saath_ho{
+.agar_tum_saath_ho {
     background-color: rgb(103, 64, 86, 0.822);
-    }
-    
+}
+
 /* Ae Dil Hai Mushkil */
-.ae_dil_hai_mushkil{
+.ae_dil_hai_mushkil {
     background-color: rgb(58, 58, 108, 0.822);
 }
 
 
 /* Khairiyat */
-.khairiyat{
+.khairiyat {
     background-color: rgb(66, 100, 138, 0.822);
 }
 
 /* Samjhawan */
-.samjhawan{
+.samjhawan {
     background-color: rgb(49, 59, 118, 0.822);
 }
 
 
 /* Hawayein */
-.hawayein{
+.hawayein {
     background-color: rgb(49, 59, 118, 0.822);
 }
 
 
-    /* Kabhi Jo Badal */
-    .kabhi_jo_badal_barse{
-        background-color:rgba(152, 124, 187, 0.822);
-        }
-        
+/* Kabhi Jo Badal */
+.kabhi_jo_badal_barse {
+    background-color: rgba(152, 124, 187, 0.822);
+}
 
 
 
 
 
- /* Footer */
 
- .text-list_footer{
+/* Footer */
+
+.text-list_footer {
     background-color: black;
 }
 
@@ -190,78 +191,78 @@ background-color: #674056;
 
 /*#1 footer-Github_icon*/
 .svggiticon {
-display: flex;
-flex-direction: left;
-color: rgb(255, 255, 255);
-background-color: #ffffff;
-border-radius: 50%;
-border: 1.5px solid #fff;
-margin-left: 5px;
+    display: flex;
+    flex-direction: left;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    margin-left: 5px;
 }
 
 .svggiticon:hover {
-background-color: rgb(215, 130, 205);
-position: relative;
-bottom: 10px;
-box-shadow: 2000px;
-;
+    background-color: rgb(215, 130, 205);
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2000px;
+    ;
 }
 
 .Github-icon {
-display: inline;
-border-left: 1px solid #fff;
-margin-left: 5px;
+    display: inline;
+    border-left: 1px solid #fff;
+    margin-left: 5px;
 }
 
 
 
 /*#2 footer-instagram_icon*/
 .svggiticon-2 {
-display: flex;
-flex-direction: left;
-border-radius: 50%;
-border: 1.5px solid #fff;
-margin-left: 5px;
-color: white;
+    display: flex;
+    flex-direction: left;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    margin-left: 5px;
+    color: white;
 }
 
 .svggiticon-2:hover {
-background-color: rgb(255, 64, 0);
-position: relative;
-bottom: 10px;
-box-shadow: 2000px;
-;
+    background-color: rgb(255, 64, 0);
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2000px;
+    ;
 }
 
 .instagram-icon {
-display: inline;
-border-left: 1px solid #fff;
-margin-left: 5px;
+    display: inline;
+    border-left: 1px solid #fff;
+    margin-left: 5px;
 }
 
 
 /*#3 footer-facebook_icon*/
 .svggiticon-3 {
-display: flex;
-flex-direction: left;
-border-radius: 50%;
-/*border: 1.5px solid #fff;
+    display: flex;
+    flex-direction: left;
+    border-radius: 50%;
+    /*border: 1.5px solid #fff;
 margin-left: 5px;*/
-color: white;
+    color: white;
 }
 
-.svggiticon-3:hover{
-color:#1778f2;
-position: relative;
-bottom: 10px;
-box-shadow: 2000px;
-;
+.svggiticon-3:hover {
+    color: #1778f2;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2000px;
+    ;
 }
 
 .facebook-icon {
-display: inline;
-border-left: 1px solid #fff;
-margin-left: 5px;
+    display: inline;
+    border-left: 1px solid #fff;
+    margin-left: 5px;
 }
 
 
@@ -269,85 +270,85 @@ margin-left: 5px;
 
 /*#4 footer-youtube_icon*/
 .svggiticon-4 {
-display: flex;
-border-radius: 5px;
+    display: flex;
+    border-radius: 5px;
 
-border-radius: 5px;
-border: 1.5px solid #fff;
-margin-left: 5px;
-color: white;
+    border-radius: 5px;
+    border: 1.5px solid #fff;
+    margin-left: 5px;
+    color: white;
 }
 
 
 
 .svggiticon-4:hover {
-color: red;
-position: relative;
-bottom: 10px;
-box-shadow: 2000px;
+    color: red;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2000px;
 }
 
 
 
 .youtube-icon {
-display: inline;
-border-left: 1px solid #fff;
-margin-left: 5px;
+    display: inline;
+    border-left: 1px solid #fff;
+    margin-left: 5px;
 }
 
 
 /*#5 footer-icon_quora*/
 
 .svggiticon-5 {
-display: flex;
-border-radius: 5px;
-color: white;
-border-radius: 50%;
-border: 1.5px solid #fff;
-margin-left: 5px;
-padding: 1px;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    margin-left: 5px;
+    padding: 1px;
 }
 
 
 
 .svggiticon-5:hover {
-color: red;
-position: relative;
-bottom: 10px;
-box-shadow: 2000px;
+    color: red;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2000px;
 }
 
 
 
 .quora-icon {
-display: inline;
-border-left: 1px solid #fff;
-margin-left: 5px;
+    display: inline;
+    border-left: 1px solid #fff;
+    margin-left: 5px;
 }
 
 
-.footer-icons-right{
-display: flex;
-align-items: center;
-justify-content: center;
+.footer-icons-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
-.footer-icons-right-m{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
+.footer-icons-right-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
-.footer-icons-right{
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 1% 0;
-background-color: black;
+.footer-icons-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+    background-color: black;
 }
 
 
@@ -359,89 +360,89 @@ background-color: black;
 
 
 .text-footer a {
- color: rgb(255, 255, 255);
- font-size: 28px;
- text-decoration: none;
- font-family: 'Amatic SC', cursive;
- }
- 
- 
- .text-footer a:hover {
- color: rgb(226, 226, 226);
- }
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+}
 
 
-.footer-text-center{
-display: flex;
-justify-content: center;
-text-align: center;
+.text-footer a:hover {
+    color: rgb(226, 226, 226);
+}
+
+
+.footer-text-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /*footer-text-copyright-further_art*/
-.footer_text-copyright-fa{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 0 60px;
+.footer_text-copyright-fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 60px;
 }
 
 
 
-  /* Responsive */
+/* Responsive */
 
-  @media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1140px) {
     .logo-image img {
         width: 16rem;
     }
-  }
+}
 
-  @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     .h1-hello {
         font-size: 2.5rem;
     }
 
     .logo-image img {
         width: 13.8rem;
-      }
-  }
+    }
+}
 
-  @media only screen and (max-width: 860px) {
-   
+@media only screen and (max-width: 860px) {
+
 
 
     /* Artist Thumnail Responsive */
 
     .artist-image-name img {
         width: 28vw;
-      }
+    }
 
-      .artist-name {
+    .artist-name {
         font-size: 4.3vw;
-      }
+    }
 
-      .artist-main-page-songs {
+    .artist-main-page-songs {
         padding: 3%;
-      }
+    }
 
 
     /* Songs and hedings */
-  
-  .song-Recommended-heading {
-    font-size: 2.6vw;
-  }
-  
-  .song_related-image img {
-      width: 10.7vw;
+
+    .song-Recommended-heading {
+        font-size: 2.6vw;
     }
-  
+
+    .song_related-image img {
+        width: 10.7vw;
+    }
+
     .song-name {
-      font-size: 2.8vw;
+        font-size: 2.8vw;
     }
-  
+
     .artist-main-page-songs {
-      padding: 3%;
+        padding: 3%;
     }
-  
+
     /* Songs Audio width Respornsive */
 
     .song_audio-controls {
@@ -449,65 +450,78 @@ margin: 0 60px;
     }
 
 
-  }
+}
 
-  @media only screen and (max-width: 420px) {
-   
-    .text-footer a{
+@media only screen and (max-width: 420px) {
+
+    .text-footer a {
         font-size: 18px;
     }
-    
+
     /* Song Name Text Sticker */
-    .song-name-text_sticker{
+    .song-name-text_sticker {
         display: none;
-        }
-        
-        .song-Recommended-heading {
-            font-size: 99%;
-            }
-        
-        /* About Artist */
-        
-        .artist-image-name img {
-            width: 150px;
-            height: 150px;
-        }
-        
-        .artist-name {
-            font-size: 24px;
-        }
-        
-        
-        /* Song */
-        
-        .song-name{
-            font-size: 25px;
-        }
-        
-        
-        
-        
-            /* Song respornsive text */
-        
-            .song-name{
-                font-size: 20px;
-            }
-            
-            
-            
-            /* Song respornsive image */
-            
-            .song_related-image img{
-                width: 75px;
-            }
-            
-            
-            
-            /* Songs Audio width Respornsive */
-            
-                 .song_audio-controls{
-                    width: 40%;
-                 }
-            
-              }
-            
+    }
+
+    .song-Recommended-heading {
+        font-size: 99%;
+    }
+
+    /* About Artist */
+
+    .artist-image-name img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .artist-name {
+        font-size: 24px;
+    }
+
+
+    /* Song */
+
+    .song-name {
+        font-size: 25px;
+    }
+
+
+
+
+    /* Song respornsive text */
+
+
+
+
+  /* Song respornsive text */
+
+  .song-name {
+    font-size: 16px;
+  }
+
+
+
+  /* Song respornsive image */
+
+  .song_related-image img {
+    width: 60px;
+  }
+
+
+
+  /* Songs Audio width Respornsive */
+
+  .song_audio-controls {
+    width: 36%;
+  }
+
+  body {
+    background-color: rgb(0, 0, 53);
+  }
+
+  /* Thumnail Hello H1 Hover Animation Responsive */
+  .h1-hello:hover {
+    letter-spacing: -0.1vh;
+  }
+
+}

@@ -446,35 +446,40 @@ display: none;
     font-size: 24px;
 }
 
- 
-  /* Song Name Text Sticker */
-    .song-name-text_sticker{
-        display: none;
-    }
-
-    /* Song respornsive text */
-
-.song-name{
-    font-size: 20px;
-}
 
 
 
-/* Song respornsive image */
-
-.song_related-image img{
-    width: 75px;
-}
 
 
+  /* Song respornsive text */
 
-/* Songs Audio width Respornsive */
-
-     .song_audio-controls{
-        width: 40%;
-     }
-
+  .song-name {
+    font-size: 16px;
   }
 
-  
 
+
+  /* Song respornsive image */
+
+  .song_related-image img {
+    width: 60px;
+  }
+
+
+
+  /* Songs Audio width Respornsive */
+
+  .song_audio-controls {
+    width: 36%;
+  }
+
+  body {
+    background-color: rgb(0, 0, 53);
+  }
+
+  /* Thumnail Hello H1 Hover Animation Responsive */
+  .h1-hello:hover {
+    letter-spacing: -0.1vh;
+  }
+
+}
