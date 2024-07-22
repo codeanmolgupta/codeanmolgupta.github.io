@@ -17,3 +17,18 @@
    }
 
 
+   @keyframes linearGradientanimation{
+    from {
+        background: linear-gradient(20deg ,blue,black,red,#000037,blue,#121212);
+      }
+    
+      50% {
+        background: linear-gradient(20deg ,red,black,blue,black,red,black);
+      }
+
+    
+      to {
+        background: linear-gradient(20deg ,blue,black,red,#000037,blue,#121212);
+      }
+    }
+   
